@@ -26,6 +26,14 @@ public class NoDuplo<T> {
         this.proximoNo = proximoNo;
     }
 
+    public NoDuplo<T> getProximoNo() {
+        return proximoNo;
+    }
+
+    public NoDuplo<T> getNoAnterior() {
+        return NoAnterior;
+    }
+
     @Override
     public String toString() {
         return "NoDuplo{Conteudo: " + conteudo + '}';
