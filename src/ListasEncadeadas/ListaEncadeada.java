@@ -1,5 +1,7 @@
 package ListasEncadeadas;
 
+import Nodes.No;
+
 public class ListaEncadeada<T> {
 
     No<T> refEntrada;
