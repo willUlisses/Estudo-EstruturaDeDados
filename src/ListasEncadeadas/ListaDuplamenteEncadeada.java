@@ -1,3 +1,5 @@
+package ListasEncadeadas;
+
 public class ListaDuplamenteEncadeada<T> {
 
     private NoDuplo<T> refInicio;
@@ -109,7 +111,7 @@ public class ListaDuplamenteEncadeada<T> {
         stringRetorno += "Inicio --> ";
 
         for (int i = 0; i < size() ; i++) {
-            stringRetorno += "<---[No" + i + "{Conteudo: " + noAuxiliar.getConteudo() + "}]---> ";
+            stringRetorno += "<---[Nodes.No" + i + "{Conteudo: " + noAuxiliar.getConteudo() + "}]---> ";
             if (noAuxiliar.getProximoNo() != null) {
                 noAuxiliar = noAuxiliar.getProximoNo();
             }

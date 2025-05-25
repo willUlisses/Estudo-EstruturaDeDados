@@ -1,3 +1,5 @@
+package ListasEncadeadas;
+
 public class ListaEncadeada<T> {
 
     No<T> refEntrada;
@@ -78,7 +80,7 @@ public class ListaEncadeada<T> {
         No<T> noAtual = refEntrada;
 
         for (int i = 0; i <= size() - 1; i++) {
-            stringRetorno += "No{Conteudo=" + noAtual.getConteudo()+"}-----> ";
+            stringRetorno += "Nodes.No{Conteudo=" + noAtual.getConteudo()+"}-----> ";
             noAtual = noAtual.getProximoNo();
         }
         stringRetorno += "null";

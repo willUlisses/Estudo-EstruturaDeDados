@@ -1,4 +1,6 @@
-import java.util.Queue;
+package Fila;
+
+import Nodes.No;
 
 public class Fila<T> {
      No<T> fim;
@@ -48,7 +50,7 @@ public class Fila<T> {
          if (inicio != null) {
              stringRetorno += "Inicio == ";
              while (true) {
-                 stringRetorno += "[No{dado=" + noAuxiliar.getConteudo() +"}]----> ";
+                 stringRetorno += "[Nodes.No{dado=" + noAuxiliar.getConteudo() +"}]----> ";
                  if (noAuxiliar.getProximoNo() != null) {
                      noAuxiliar = noAuxiliar.getProximoNo();
                  } else {

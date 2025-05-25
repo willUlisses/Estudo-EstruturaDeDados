@@ -1,3 +1,5 @@
+package Nodes;
+
 public class No<T> {
 
     private T conteudo;
@@ -31,6 +33,6 @@ public class No<T> {
 
     @Override
     public String toString() {
-        return "No: {Conteudo: " + conteudo +"}";
+        return "Nodes.No: {Conteudo: " + conteudo +"}";
     }
 }

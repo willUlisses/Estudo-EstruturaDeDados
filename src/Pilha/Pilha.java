@@ -1,3 +1,7 @@
+package Pilha;
+
+import Nodes.No;
+
 public class Pilha<T> {
     No<T> topo;
 
@@ -41,7 +45,7 @@ public class Pilha<T> {
 
         while (true) {
             if (noAuxiliar != null) {
-                stringRetorno += "[No{dado=" + noAuxiliar.getConteudo() +"}]\n";
+                stringRetorno += "[Nodes.No{dado=" + noAuxiliar.getConteudo() +"}]\n";
                 noAuxiliar = noAuxiliar.getProximoNo();
             } else {
                 break;

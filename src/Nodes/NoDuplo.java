@@ -1,3 +1,5 @@
+package Nodes;
+
 public class NoDuplo<T> {
 
     private NoDuplo<T> proximoNo;
@@ -36,6 +38,6 @@ public class NoDuplo<T> {
 
     @Override
     public String toString() {
-        return "NoDuplo{Conteudo: " + conteudo + '}';
+        return "Nodes.NoDuplo{Conteudo: " + conteudo + '}';
     }
 }
