@@ -1,0 +1,8 @@
+## ESTRUTURAS DE DADOS - PILHAS
+
+Assim como pilhas de coisas na vida real, essa estrutura de dados obedece a mesma dinâmica de uma pilha de livros por exemplo, você adiciona
+um elemento por vez, um acima do outro e o elemento mais fácil de ser removido é o elemento mais ao topo (o úitimo que chegou na pilha) <br><br>
+Abaixo serão mostrados 3 pontos sobre a estrutura de dados chamada de Pilha, sendo elas: Estrutura base, Adição de um nó, Remoção de um Nó.
+
+### - Estrutura Base da Pilha:
+
