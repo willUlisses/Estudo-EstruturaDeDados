@@ -5,3 +5,11 @@ um elemento por vez, um acima do outro e o elemento mais fácil de ser removido 
 Abaixo serão mostrados 3 pontos sobre a estrutura de dados chamada de Pilha, sendo elas: Estrutura base, Adição de um nó, Remoção de um Nó.
 
 ### - Estrutura Base da Pilha:
+
+Nas Pilhas, organizamos os dados (nesse caso os nós) um sobre o outro, cada um desses Nós irá possuir uma <code>refProximoNo</code> que servirá como
+uma referência para o Nó logo abaixo dele, além disso existe também outro ponteiro chamado <code>topo</code>, que sempre apontará para o ultimo Nó
+que foi adicionado (o topo da pilha).
+
+<div align="center">
+  <img height="450em" width="800em" src="Images/PILHAS/Estrutura Base.png"/>
+</div>
