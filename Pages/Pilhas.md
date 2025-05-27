@@ -11,5 +11,28 @@ uma referência para o Nó logo abaixo dele, além disso existe também outro po
 que foi adicionado (o topo da pilha).
 
 <div align="center">
-  <img height="450em" width="800em" src="Images/PILHAS/Estrutura Base.png"/>
+  <img height="450em" width="800em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/PILHAS/EstruturaBase.png"/>
+</div>
+
+### - Adicionando um Nó na Pilha:
+
+Para adicionar um novo Nó na nossa Pilha, devemos fazer com que o nosso <code>novoNo</code> aponte sua <code>refProximoNo</code> para o Nó imediatamente abaixo dele
+(No caso para o antigo topo), e depois atualizaremos a referência de topo para o novo Nó da seguinte forma: <br>
+
+<code>novoNo.setProximoNo(topo);
+topo = novoNo;
+</code>
+
+<div align="center">
+  <img height="500em" width="750em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/PILHAS/AdicionandoUmNó.png"/>
+</div>
+
+### - Removendo um Nó da Pilha:
+
+Para remover um nó da pilha, apenas iremos atualizar nossa referência de topo para o Nó imediatamente abaixo dele da seguinte maneira: <br>
+<code>topo = topo.getProximoNo();</code> <br>
+Asssim iremos deixar o antigo topo (Nó que acabos de remover) sem nenhuma referência apontada para ele, assim ele será excluído da memória.
+
+<div align="center">
+  <img height="500em" width="750em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/PILHAS/RemovendoUmNó.png"/>
 </div>
