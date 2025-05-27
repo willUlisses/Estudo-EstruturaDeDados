@@ -23,7 +23,7 @@ public class Main {
        // System.out.println(minhaStack.toString());
        // System.out.println(minhaStack.peek());
         // -------------------------------------------------
-        Fila<Integer> minhaFila = new Fila<>();
+        Fila<Integer> minhaFila = new Fila<Integer>();
 
         minhaFila.enqueue(1);
         minhaFila.enqueue(20);
