@@ -5,9 +5,9 @@ de FIFO(First in, First out), em que o primeiro que chega na fila também será 
 
 ### - Estrutura Base da Fila:
 
-Nas Pilhas, organizamos os dados (nesse caso os nós) um sobre o outro, cada um desses Nós irá possuir uma <code>refProximoNo</code> que servirá como
-uma referência para o Nó logo abaixo dele, além disso existe também outro ponteiro chamado <code>topo</code>, que sempre apontará para o ultimo Nó
-que foi adicionado (o topo da pilha).
+Nas Filas, organizamos os dados (nesse caso os nós) em uma fileira em que cada um desses Nós irá possuir uma <code>refProximoNo</code> que servirá como
+uma referência para o Nó logo atrás (próximo da fila) dele, além disso existe também outros dois ponteiros chamados <code>inicio</code> e <code>final</code> 
+que servirão para fazer o controle dos nós que entram (no final) e os que saem (os primeiros da fila).
 
 <div align="center">
   <img height="500em" width="1000em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/FILAS/estruturaBase.png"/>
@@ -15,12 +15,12 @@ que foi adicionado (o topo da pilha).
 
 ### - Adicionando um Nó na Fila:
 
-Para adicionar um novo Nó na nossa Pilha, devemos fazer com que o nosso <code>novoNo</code> aponte sua <code>refProximoNo</code> para o Nó imediatamente abaixo dele
-(No caso para o antigo topo), e depois atualizaremos a referência de topo para o novo Nó da seguinte forma: <br>
+Para adicionar um novo Nó na nossa fila, devemos fazer com que o nosso ULTIMO NÓ aponte sua <code>refProximoNo</code> para o <code>novoNo</code>, que ficará imediatamente atrás dele como o próximo da fila, e para isso atualizaremos a referência de <code>final</code> para o <code>novoNo</code> da seguinte forma: <br>
 
-<code>novoNo.setProximoNo(topo);
-topo = novoNo;
-</code>
+<code>final.setProximoNo(novoNo);</code ><br>
+<code>final = novoNo;</code> <br>
+
+Dessa maneira nós iremos adicionar o <code>novoNo</code> como o útlimo da fila!
 
 <div align="center">
   <img height="600em" width="1100em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/FILAS/AdicionandoNó.png"/>
@@ -28,9 +28,9 @@ topo = novoNo;
 
 ### - Removendo um Nó da Fila:
 
-Para remover um nó da pilha, apenas iremos atualizar nossa referência de topo para o Nó imediatamente abaixo dele da seguinte maneira: <br>
-<code>topo = topo.getProximoNo();</code> <br>
-Asssim iremos deixar o antigo topo (Nó que acabos de remover) sem nenhuma referência apontada para ele, assim ele será excluído da memória.
+Para remover um nó da fila, apenas iremos atualizar nossa referência de Inicio para o Nó imediatamente próximo dele da seguinte maneira: <br>
+<code>inicio = inicio.getProximoNo();</code> <br>
+Asssim iremos fazer com que o "primeiro da fila" seja atendido (removido) e o Nó <code>inicio</code> passe a ser o "próximo da fila".
 
 <div align="center">
   <img height="500em" width="750em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/FILAS/RemovendoNó.png"/>
