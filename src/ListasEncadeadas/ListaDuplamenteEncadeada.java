@@ -1,5 +1,7 @@
 package ListasEncadeadas;
 
+import Nodes.NoDuplo;
+
 public class ListaDuplamenteEncadeada<T> {
 
     private NoDuplo<T> refInicio;

@@ -50,11 +50,11 @@ public class Fila<T> {
          if (inicio != null) {
              stringRetorno += "Inicio == ";
              while (true) {
-                 stringRetorno += "[Nodes.No{dado=" + noAuxiliar.getConteudo() +"}]----> ";
+                 stringRetorno += "[No{dado=" + noAuxiliar.getConteudo() +"}]----> ";
                  if (noAuxiliar.getProximoNo() != null) {
                      noAuxiliar = noAuxiliar.getProximoNo();
                  } else {
-                     stringRetorno += "null";
+                     stringRetorno += "Fim";
                      break;
                  }
              }

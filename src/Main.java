@@ -29,6 +29,8 @@ public class Main {
         minhaFila.enqueue(20);
         minhaFila.enqueue(49);
 
+        System.out.println(minhaFila);
+
         ListaEncadeada<String> minhaLista = new ListaEncadeada<>();
 
         minhaLista.add("Teste1");
