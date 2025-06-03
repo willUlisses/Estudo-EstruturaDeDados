@@ -1,6 +1,6 @@
 <h2 align="center" >ESTRUTURA DE DADOS - LISTAS</h2>
 
-Em relação à estrutura de dados chamada LISTA, é necessário ter ciência de diversos tipos de listas, nesse arquivo vou deixar disponível a descrição de 3 tipos destas,
+Em relação à estrutura de dados chamada LISTA, é necessário ter ciência dos diversos tipos de listas que estão disponíveis, nesse arquivo vou deixar disponível a descrição de 3 tipos destas,
 sendo elas: Listas Encadeadas (LinkedLists), Listas Duplamente Encadeadas e Listas Circulares.
 
 
