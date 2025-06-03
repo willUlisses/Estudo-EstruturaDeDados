@@ -33,5 +33,5 @@ Para remover um nó da fila, apenas iremos atualizar nossa referência de Inicio
 Asssim iremos fazer com que o "primeiro da fila" seja atendido (removido) e o Nó <code>inicio</code> passe a ser o "próximo da fila".
 
 <div align="center">
-  <img height="500em" width="750em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/FILAS/RemovendoNó.png"/>
+  <img height="700em" width="1000em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/FILAS/RemovendoNo.png"/>
 </div>
