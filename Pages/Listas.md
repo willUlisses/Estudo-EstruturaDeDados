@@ -6,5 +6,5 @@ sendo elas: Listas Encadeadas (LinkedLists), Listas Duplamente Encadeadas e List
 
 Para ver páginas com uma melhor descrição de cada um desses tipos, selecione um deles abaixo:
 
-- [Listas Encadeadas]()
+- [Listas Encadeadas](https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Pages/LinkedList.md)
 - continua...
