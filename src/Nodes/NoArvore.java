@@ -37,7 +37,6 @@ public class NoArvore <T extends Comparable<T>>{
 
     public String toString() {
         return "NoBin{Conteudo= " + this.getConteudo() +"}";
-
     }
 
 }
