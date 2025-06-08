@@ -11,3 +11,20 @@ além de conter uma referência de entrada na lista, em que seu uso será descri
 <div align="center">
    <img height="600em" width="1100em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/estruturaBasica.png"/>
 </div>
+
+### Adição de um Nó na Lista:
+
+Como dito acima, nas Listas Encadeadas nós conseguimos adicionar Nós em qualquer lugar da nossa estrutura de dados, tanto no final, como no meio e no começo, e abaixo vou ilustrar cada uma dessas 
+situações.
+
+#### --> Adicionando no Final:
+
+-- imagem 
+
+#### --> Adicionando no Meio:
+
+-- imagem 
+
+#### --> Adicionando no Começo:
+
+-- imagem 
