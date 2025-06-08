@@ -20,7 +20,7 @@ public class Main {
         minhaStack.push(terceiroNo);
         minhaStack.push(quartoNo);
 
-       // System.out.println(minhaStack.toString());
+        System.out.println(minhaStack);
        // System.out.println(minhaStack.peek());
         // -------------------------------------------------
         Fila<Integer> minhaFila = new Fila<Integer>();
@@ -41,5 +41,4 @@ public class Main {
 
 
     }
-
     }
