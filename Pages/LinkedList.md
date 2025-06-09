@@ -25,8 +25,12 @@ situações.
 
 #### --> Adicionando no Meio:
 
--- imagem 
+<div align="center">
+   <img height="600em" width="1000em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoMeio.png"/>
+</div> 
 
 #### --> Adicionando no Começo:
 
--- imagem 
+<div align="center">
+   <img height="600em" width="1000em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoComeço.png"/>
+</div> 
