@@ -19,7 +19,9 @@ situações.
 
 #### --> Adicionando no Final:
 
--- imagem 
+<div align="center">
+   <img height="600em" width="1000em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoFinal.png"/>
+</div>
 
 #### --> Adicionando no Meio:
 
