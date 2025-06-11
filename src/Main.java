@@ -1,3 +1,5 @@
+import ArvoreBinaria.ArvoreBin;
+import ArvoreBinaria.ObjetoComparable;
 import Fila.Fila;
 import ListasEncadeadas.ListaEncadeada;
 import Nodes.No;
@@ -39,6 +41,22 @@ public class Main {
         minhaLista.add("Teste4");
 
 
+        // ---- TESTES DA ARVORE BINARIA:
+
+        ArvoreBin<ObjetoComparable> minhaArvore = new ArvoreBin<>();
+
+        ObjetoComparable obj = new ObjetoComparable(13);
+
+        minhaArvore.inserir(obj);
+        minhaArvore.inserir(new ObjetoComparable(10));
+        minhaArvore.inserir(new ObjetoComparable(12));
+        minhaArvore.inserir(new ObjetoComparable(2));
+        minhaArvore.inserir(new ObjetoComparable(25));
+        minhaArvore.inserir(new ObjetoComparable(20));
+        minhaArvore.inserir(new ObjetoComparable(31));
+        minhaArvore.inserir(new ObjetoComparable(32));
+
+        minhaArvore.exibirPreOrder();
 
     }
     }

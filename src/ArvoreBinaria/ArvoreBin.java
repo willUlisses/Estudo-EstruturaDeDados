@@ -83,6 +83,7 @@ public class ArvoreBin<T extends Comparable<T>> {
 
     if (atual == null) {
         System.out.println("Conteudo não encontrado. Bloco Try");
+        return;
     }
 
         if (pai == null) {
@@ -110,9 +111,27 @@ public class ArvoreBin<T extends Comparable<T>> {
                 pai.setNoDir(atual.getNoEsq());
             }
         } else if (atual.getNoEsq() == null) {
-
+            if (pai.getNoEsq() == atual) {
+                pai.setNoEsq(atual.getNoDir());
+            } else {
+                pai.setNoDir(atual.getNoDir());
+            }
         } else {
-
+            for (temp = atual, filho = atual.getNoEsq();
+                 filho.getNoDir() != null;
+                 temp = filho, filho = filho.getNoDir())
+            {
+                if (filho != atual.getNoEsq()) {
+                    temp.setNoDir(filho.getNoEsq());
+                    filho.setNoEsq(atual.getNoEsq());
+                }
+                filho.setNoDir(atual.getNoDir());
+                if (pai.getNoEsq() == atual) {
+                    pai.setNoEsq(filho);
+                } else {
+                    pai.setNoDir(filho);
+                }
+            }
         }
 
 
