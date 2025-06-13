@@ -13,13 +13,15 @@ public class NativaQueue {
         myQueue.add(30);
         myQueue.add(40);
         myQueue.add(50);
-
         System.out.println(myQueue);
+
         myQueue.remove();
         System.out.println(myQueue);
+
         System.out.println(myQueue.offer(60));
         System.out.println(myQueue);
         System.out.println(myQueue.peek());
+
         System.out.println(myQueue.poll());
         System.out.println(myQueue);
 
