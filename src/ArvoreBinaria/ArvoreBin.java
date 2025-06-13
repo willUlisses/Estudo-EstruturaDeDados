@@ -140,5 +140,4 @@ public class ArvoreBin<T extends Comparable<T>> {
     }
  }
 
-
 }
