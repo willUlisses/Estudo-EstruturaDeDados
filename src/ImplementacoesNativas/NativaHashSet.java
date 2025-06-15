@@ -17,7 +17,6 @@ public class NativaHashSet {
 
         System.out.println(myHashSet);
 
-
         Set<Integer> myTreeSet = new TreeSet<>();
 
         myTreeSet.add(10);
