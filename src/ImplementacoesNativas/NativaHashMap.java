@@ -37,6 +37,12 @@ public class NativaHashMap {
 
         System.out.println(aluno2.containsKey("Nome"));
 
+        System.out.println(aluno2.get("Nome"));
+
+        aluno2.replace("Nome", "Carlito");
+
+        System.out.println(aluno2.get("Nome"));
+
     }
  
 }
