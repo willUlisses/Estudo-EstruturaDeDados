@@ -56,3 +56,13 @@ Pra Adicionar um Nó no começo o processo é tão simples quanto no final, nós
 <div align="center">
    <img height="500em" width="900em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoComeço.png"/>
 </div> 
+
+### --> Removendo um Nó nas extremidades:
+
+Pra remover um Nó, devemos fazer um processo parecido com o de adição, no final das contas estaremos manipulando as referências para esses nós, mas no caso das extremidades (inicio e fim) 
+iremos apenas assegurar que não exista referência nenhuma apontando pros Nós que devemos remover, no caso do inicio <code>refInicio</code> e no caso do fim <code>refFinal</code> como ilustrado
+abaixo: 
+
+<div align="center">
+   <img height="500em" width="900em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoComeço.png"/>
+</div>
