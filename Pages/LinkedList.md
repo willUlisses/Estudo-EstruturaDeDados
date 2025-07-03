@@ -1,4 +1,4 @@
-## LISTAS - LINKED LISTS:
+## ESTRUTURA DE DADOS - LINKED LISTS:
 
 Esse tipo de estrutura de dados é o mais semelhante de todos com as Filas, nele temos nós encadeados por referências, basicamente cada nó da nossa lista contém uma referência para o próximo Nó,
 mas não temos uma ordem estrita a ser seguida aqui, podemos adicionar e remover Nós de qualquer lugar da lista, o que será descrito mais abaixo.
