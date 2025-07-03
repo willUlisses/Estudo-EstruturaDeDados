@@ -11,7 +11,7 @@ P.S: O código de cada estrutura também está disponível no repositório ;)
 
 - [Pilhas](https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Pages/Pilhas.md)
 - [Filas](https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Pages/Filas.md)
-- [Listas](https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Pages/Listas.md)
+- [Lista Encadeada](https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Pages/LinkedList.md)
 - 
   continua... :O
 
