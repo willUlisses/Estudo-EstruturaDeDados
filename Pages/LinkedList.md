@@ -64,5 +64,22 @@ iremos apenas assegurar que não exista referência nenhuma apontando pros Nós 
 abaixo: 
 
 <div align="center">
-   <img height="500em" width="900em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/AdicionandoNoComeço.png"/>
+   <img height="600em" width="950em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/RemovendoNasExtremidades.png"/>
 </div>
+
+### --> Removendo Um Nó no Meio:
+
+Remover um Nó localizado no meio da nossa lista é um pouco mais complicado do que nas extremidades, pois temos que criar uma variável <code>NoAuxiliar</code>, que irá apontar para o Nó imediatamente
+anterior ao Nó que queremos remover pois iremos manipular as referências que se relacionam com esse nó em questão. Com <code>NoAuxiliar</code> criado o que devemos fazer é apontar a <code>refProxNo</code>
+do <code>NoAuxiliar</code> para o Nó APÓS O NÓ QUE QUEREMOS REMOVER(<code>NoRemovido.getProxNo()</code>) assim como na ilustração mais abaixo, e por fim devemos apontar a <code>refProxNo</code> do <code>NoRemovido</code> para Null, assim ele não apontará para nada e nada irá apontar para ele também.
+
+> Abaixo vai um bloco de código e uma ilustração pra exemplificar melhor o processo:
+
+<code>NoAuxiliar = getNo(index - 1); 
+NoAuxiliar.setRefProxNo(NoRemovido.getProxNo); 
+NoRemovido.setProxNo(null);</code>
+
+<div align="center">
+   <img height="600em" width="950em" src="https://github.com/willUlisses/Estudo-EstruturaDeDados/blob/master/Images/LISTAS/ListasEncadeadas/RemovendoNoMeio.png"/>
+</div>
+
